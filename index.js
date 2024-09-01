@@ -10,10 +10,10 @@ app.use(express.json()); // Parse JSON bodies
 
 // Auth
 app.use("/", require("./routers/auth/log-in.js"));
-app.use("/", require("./routers/auth/sgin-in"));
+app.use("/", require("./routers/auth/sgin-in.js"));
 
 // Global
-app.use("/", require("./routers/global/image"));
+app.use("/", require("./routers/global/image.js"));
 app.use("/", require("./routers/global/products"));
 
 // User
