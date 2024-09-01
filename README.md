@@ -20,26 +20,37 @@ Follow these steps to set up Electro-API on your local machine.
 
 ## 📚 Documentation
 
-```URL :``` https://electro.com/sgin-in
-```Metode :``` POST
-```Descreption``` : This end point for create new account in this store
 
-## 📚 Documentation
-```URL :``` https://electro.com/login-in 
+```URL :``` https://electro.com/sgin-in
+
 ```Metode :``` POST
+
+```Descreption :``` This end point for create new account in this store
+
+
+```URL :``` https://electro.com/login-in 
+
+```Metode :``` POST
+
 ```Descreption :``` This end point for login to your account and get Token
 
-## 📚 Documentation
+
 ```URL :``` https://electro.com/info
+
 ```Metode :``` GET
+
 ```Descreption :``` This end point for get information of user like user name and email ...
 
-## 📚 Documentation
+
 ```URL :``` https://electro.com/product
+
 ```Metode :``` GET
+
 ```Descreption :``` This end point for get data of product
 
-## 📚 Documentation
+
 ```URL :``` https://electro.com/image
+
 ```Metode :``` GET
+
 ```Descreption :``` This end point for get image by name from product data
