@@ -28,11 +28,13 @@ Follow these steps to set up Electro-API on your local machine.
 ```Descreption :``` This end point for create new account in this store
 
 
-```URL :``` https://electro.com/login-in 
+
+```URL :``` https://electro.com/login-in
+
+```Descreption :``` This end point for login to your account and get Token
 
 ```Metode :``` POST
 
-```Descreption :``` This end point for login to your account and get Token
 
 
 ```URL :``` https://electro.com/info
@@ -42,11 +44,13 @@ Follow these steps to set up Electro-API on your local machine.
 ```Descreption :``` This end point for get information of user like user name and email ...
 
 
+
 ```URL :``` https://electro.com/product
 
 ```Metode :``` GET
 
 ```Descreption :``` This end point for get data of product
+
 
 
 ```URL :``` https://electro.com/image
