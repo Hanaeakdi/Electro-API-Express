@@ -31,7 +31,7 @@ function VerifyUser(token) {
                 return;
             }
 
-            const { email, pass } = decoded;
+            const { email , pass } = decoded;
 
             try {
 
