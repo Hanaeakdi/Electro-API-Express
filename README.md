@@ -80,7 +80,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ```json
 {
-    "token": "exampleJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    "token": "exampleJhbGciOiJIUzI1NiIsInR5cscddE4bD1FfegCI6IkpXVCJ9ceftg"
 }
 ```
 
@@ -99,7 +99,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ```json
 {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImVtYWlsIjoiWmFrYXJpYUBnbWFpbC5jb20iLCJwYXNzIjoiTUQ1IiwiaWF0IjoxNzI0NzY4MjQ4fQ.CP16kYvC-zVIlFOr9q0vRbsy1HQhdd-64m3I4niHF6s"
+    "token": "exampleJhbGciOiJIUzI1NiIsInR5cscddE4bD1FfegCI6IkpXVCJ9ceftg"
 }
 ```
 
@@ -209,7 +209,8 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ```json
 {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImVtYWlsIjoiWmFrYXJpYUBnbWFpbC5jb20iLCJwYXNzIjoiTUQ1IiwiaWF0IjoxNzI0NzY4MjQ4fQ.CP16kYvC-zVIlFOr9q0vRbsy1HQhdd-64m3I4niHF6s",
+{
+    "token": "exampleJhbGciOiJIUzI1NiIsInR5cscddE4bD1FfegCI6IkpXVCJ9ceftg",
     "cart": {
         "0": 10,
         "1": 5,
