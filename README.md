@@ -43,7 +43,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 ```json
 {
     "user": "Example",
-    "email": "example@gmail.com",
+    "email": "example@email.com",
     "pass": "MD5"
 }
 ```
@@ -69,7 +69,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ```json
 {
-    "email": "example@gmail.com",
+    "email": "example@email.com",
     "pass": "MD5"
 }
 ```
@@ -111,7 +111,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
     "info": {
         "id": 24,
         "user": "Example",
-        "email": "example@gmail.com",
+        "email": "example@email.com",
         "role": "user"
     },
     "cart": {
@@ -149,7 +149,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
             "price": 600,
             "category": "TV",
             "company": "TCL",
-            "stars": 5,
+            "stars": 4,
             "img": "TV_9.png"
         },
         {
@@ -160,7 +160,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
             "price": 450,
             "category": "TV",
             "company": "Toshiba",
-            "stars": 5,
+            "stars": 3,
             "img": "TV_11.png"
         },
         {
