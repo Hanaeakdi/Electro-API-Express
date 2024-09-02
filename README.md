@@ -192,7 +192,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-`200` :
+  `200` :
 
 ![TV Image](image/TV_12.png)
 
