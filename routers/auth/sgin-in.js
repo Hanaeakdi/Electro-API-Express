@@ -27,7 +27,7 @@ router.post("/sgin-in", async (req, res) => {
         if (!result.insertId) 
             return res.status(500).end(); // SQL Error
         
-        return res.status(200).end(); // Done
+        return res.status(201).end(); // Done
     
     } catch (error) {
 
