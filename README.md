@@ -25,18 +25,23 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ---
 
+## 📚 Libbrry 
+
+#### 1 ) express
+
+#### 2 ) mysql
+
+#### 3 ) jsonwebtoken
+
+#### 4 ) cors
+
+#### 5 ) sanitize-filename
+
+
+---
+
+
 ## 📚 API Documentation
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### 1. **Sign-Up**
