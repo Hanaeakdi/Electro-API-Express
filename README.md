@@ -154,7 +154,11 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
         "email": "Example@gmail.com",
         "role": "user"
     },
-    "cart": null
+    "cart": {
+        "0": 10,
+        "1": 5,
+        "4": 2
+    }
 }
 ```
 
