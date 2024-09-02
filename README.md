@@ -23,24 +23,6 @@ To set up Electro-API on your local machine:
 git clone https://github.com/MinProGamer/Electro-API-Express.git
 ```
 
----
-
-## 📚 Libbrry 
-
-#### 1 ) express
-
-#### 2 ) mysql
-
-#### 3 ) jsonwebtoken
-
-#### 4 ) cors
-
-#### 5 ) sanitize-filename
-
-
----
-
-
 ## 📚 API Documentation
 
 
@@ -327,6 +309,18 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 ` 401 ` : invalid user
 
 ` 500 ` : Server Error
+
+---
+
+---
+
+## 📚 Libbrry 
+
+#### - express
+
+#### - mysql
+
+#### - jsonwebtoken
 
 ---
 
