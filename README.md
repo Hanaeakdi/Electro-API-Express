@@ -137,7 +137,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 - **Description**: Get all products from the database.
 - **Response**:
 
-`200` :
+  `200` :
 ```json
 {
     "products": [
