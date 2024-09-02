@@ -79,7 +79,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**: 
 
-  `200` :
+`200` :
 
 ```json
 {
@@ -108,7 +108,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-  `200` :
+`200` :
 ```json
 {
     "info": {
@@ -140,7 +140,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 - **Description**: Get all products from the database.
 - **Response**:
 
-  `200` :
+`200` :
 ```json
 {
     "products": [
@@ -195,7 +195,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-  `200` :
+`200` :
 
 ![TV Image](image/TV_12.png)
 
