@@ -1,6 +1,3 @@
-Got it! Here's the updated documentation with all dashes before status codes removed:
-
----
 
 ![TV Image](image/Logo.png)
 
