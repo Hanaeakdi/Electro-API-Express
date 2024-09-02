@@ -124,7 +124,11 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 }
 ```
 
-- **Response**: `200 OK` or `201 Created`
+- **Response**:
+
+`Status Code 200 `
+
+`Status Code 201 ` 
 
 ---
 
