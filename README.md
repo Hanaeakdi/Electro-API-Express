@@ -185,7 +185,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ---
 
-### 4. ** Products **
+### 4. ** Get All Products **
 
 - **URL**: `https://electro.com/products`
 - **Method**: `GET`
@@ -260,7 +260,9 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-` 200 ` : Give You Src of image
+` 200 ` :
+
+![TV Image](images/TV_12.png)
 
 ` 404 ` : Image not found
 
