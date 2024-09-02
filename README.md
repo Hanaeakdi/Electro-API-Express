@@ -1,6 +1,3 @@
-It looks like you have a collection of API endpoints in Postman related to the Electro-API Express project, with several request and response examples. Here's how you can structure the documentation for these API endpoints, focusing on the requests and responses:
-
----
 
 # ⚡️ Electro-API Express
 
@@ -28,6 +25,18 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ## 📚 API Documentation
 
+
+
+
+
+
+
+
+
+
+
+
+
 ### 1. **Sign-Up**
 
 - **URL**: `https://electro.com/sgin-in`
@@ -43,9 +52,26 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 }
 ```
 
-- **Response**: `Code 201 : Created sucsusfly` or `Code 409 : Account Allredy Exsist `
+- **Response**:
+
+` 201 ` : Account created Succsusfly
+
+` 400 ` : Missing data like User or Email or Password
+
+` 409 ` : Account Allredy Exsist
+
+` 500 ` : Server Error
 
 ---
+
+
+
+
+
+
+
+
+
 
 ### 2. **Log-In**
 
@@ -84,7 +110,21 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 }
 ```
 
-- **Response**: `200 OK`
+- **Response**:
+
+
+` 201 ` :
+```json
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImVtYWlsIjoiWmFrYXJpYUBnbWFpbC5jb20iLCJwYXNzIjoiTUQ1IiwiaWF0IjoxNzI0NzY4MjQ4fQ.CP16kYvC-zVIlFOr9q0vRbsy1HQhdd-64m3I4niHF6s"
+}
+```
+
+` 400 ` : Missing data Email or Password
+
+` 401 ` : User not Found
+
+` 500 ` : Server Error
 
 ---
 
@@ -126,9 +166,9 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-`Status Code 200 `
+` 200 ` : The New Cart is Saved
 
-`Status Code 201 ` 
+` 500 ` : Server Error
 
 ---
 

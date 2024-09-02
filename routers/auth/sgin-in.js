@@ -7,7 +7,7 @@ router.post("/sgin-in", async (req, res) => {
     const { user, email, pass } = req.body
 
     if (!user || !email || !pass) 
-        return res.status(400).end(); // Missing User or Pass
+        return res.status(400).end(); // Missing User or Email or Pass
 
     let user_data
 
