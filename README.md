@@ -1,4 +1,4 @@
-Here's the revised version of your API documentation with corrected errors and improvements:
+Got it! Here's the updated documentation with all dashes before status codes removed:
 
 ---
 
@@ -45,10 +45,13 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-  - `201` : Account created successfully
-  - `400` : Missing data such as user, email, or password
-  - `409` : Account already exists
-  - `500` : Server error
+  `201` : Account created successfully
+
+  `400` : Missing data such as user, email, or password
+
+  `409` : Account already exists
+
+  `500` : Server error
 
 ---
 
@@ -68,7 +71,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**: 
 
-  - `200` :
+  `200` :
 
 ```json
 {
@@ -76,8 +79,9 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 }
 ```
 
-  - `401` : Invalid user
-  - `500` : Server error
+  `401` : Invalid user
+
+  `500` : Server error
 
 ---
 
@@ -96,7 +100,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-  - `200` :
+  `200` :
 ```json
 {
     "info": {
@@ -113,9 +117,11 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 }
 ```
 
-  - `400` : Missing token
-  - `401` : Invalid user
-  - `500` : Server error
+  `400` : Missing token
+
+  `401` : Invalid user
+
+  `500` : Server error
 
 ---
 
@@ -126,7 +132,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 - **Description**: Get all products from the database.
 - **Response**:
 
-  - `200` :
+  `200` :
 ```json
 {
     "products": [
@@ -167,8 +173,9 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 }
 ```
 
-  - `404` : Products not found
-  - `500` : Server error
+  `404` : Products not found
+
+  `500` : Server error
 
 ---
 
@@ -180,11 +187,11 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-  - `200` :
+  `200` :
 
 ![TV Image](image/TV_12.png)
 
-  - `404` : Image not found
+  `404` : Image not found
 
 ---
 
@@ -208,10 +215,13 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-  - `200` : The new cart is saved
-  - `400` : Missing token
-  - `401` : Invalid user
-  - `500` : Server error
+  `200` : The new cart is saved
+
+  `400` : Missing token
+
+  `401` : Invalid user
+
+  `500` : Server error
 
 ---
 
