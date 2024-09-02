@@ -18,6 +18,14 @@ Electro-API is a powerful and lightweight API built with Express.js. It provides
 
 ---
 
+## 📚 Library
+
+- **express**
+- **mysql**
+- **jsonwebtoken**
+
+---
+
 ## 📦 Installation
 
 To set up Electro-API on your local machine:
@@ -222,14 +230,6 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
   `401` : Invalid user
 
   `500` : Server error
-
----
-
-## 📚 Library
-
-- **express**
-- **mysql**
-- **jsonwebtoken**
 
 ---
 
