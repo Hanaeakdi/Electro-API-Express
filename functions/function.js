@@ -6,6 +6,8 @@ dotenv.config(); // Load environment variables
 
 const jwtSecret = process.env.JWT_SECRET;
 
+// Send query to SQL Data Base
+
 function SQL(query, params = []){
     
     return new Promise( (resolve, reject) => {
@@ -15,10 +17,14 @@ function SQL(query, params = []){
     });
 }
 
-function NewToken(pyload){
+// Generate Token
+
+function NewToken(pyload){ 
     const token = jwt.sign(pyload, jwtSecret);
     return token
 }
+
+// User Verification
 
 function VerifyUser(token) {
 

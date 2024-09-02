@@ -1,8 +1,8 @@
 
 const express = require("express");
-const { NewToken , VerifyUser } = require("../../functions/function"); // Import functions
+const { VerifyUser } = require("../../functions/function"); // Import functions
 const router = express.Router();
-
+t
 router.post("/info", async (req, res) => {
 
     const { token } = req.body;
