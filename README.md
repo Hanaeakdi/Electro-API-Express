@@ -1,3 +1,6 @@
+Here's the revised version of your API documentation with corrected errors and improvements:
+
+---
 
 ![TV Image](image/Logo.png)
 
@@ -25,10 +28,9 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ## 📚 API Documentation
 
-
 ### 1. **Sign-Up**
 
-- **URL**: `https://electro.com/sgin-in`
+- **URL**: `https://electro.com/sign-up`
 - **Method**: `POST`
 - **Description**: Create a new account.
 - **Request Body**:
@@ -36,32 +38,19 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 ```json
 {
     "user": "Example",
-    "email": "Example@gmail.com",
+    "email": "example@gmail.com",
     "pass": "MD5"
 }
 ```
 
 - **Response**:
 
-` 201 ` : Account created Succsusfly
-
-` 400 ` : Missing data like User or Email or Password
-
-` 409 ` : Account Allredy Exsist
-
-` 500 ` : Server Error
+  - `201` : Account created successfully
+  - `400` : Missing data such as user, email, or password
+  - `409` : Account already exists
+  - `500` : Server error
 
 ---
-
-
-
-
-
-
-
-
-
-
 
 ### 2. **Log-In**
 
@@ -72,47 +61,23 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ```json
 {
-    "email": "Example@gmail.com",
+    "email": "example@gmail.com",
     "pass": "MD5"
 }
 ```
 
 - **Response**: 
 
-` 200 ` :
+  - `200` :
 
 ```json
 {
-    "token": "exsampleJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    "token": "exampleJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
 }
 ```
 
-` 401 ` : Invalid user
-
-
-` 500 ` : Server Error
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - `401` : Invalid user
+  - `500` : Server error
 
 ---
 
@@ -131,14 +96,13 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-
-` 200 ` :
+  - `200` :
 ```json
 {
     "info": {
         "id": 24,
         "user": "Example",
-        "email": "Example@gmail.com",
+        "email": "example@gmail.com",
         "role": "user"
     },
     "cart": {
@@ -149,44 +113,20 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 }
 ```
 
-
-` 400 ` : Missing Token
-
-` 401 ` : Invalid user
-
-` 500 ` : Server Error
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - `400` : Missing token
+  - `401` : Invalid user
+  - `500` : Server error
 
 ---
 
-### 4. ** Get All Products **
+### 4. **Get All Products**
 
 - **URL**: `https://electro.com/products`
 - **Method**: `GET`
-- **Description**: Get all products from data base.
+- **Description**: Get all products from the database.
 - **Response**:
 
-`200 ` :
-
+  - `200` :
 ```json
 {
     "products": [
@@ -222,63 +162,29 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
             "company": "Philips",
             "stars": 5,
             "img": "TV_12.png"
-        },
+        }
     ]
 }
 ```
 
-` 404 ` : Products not found
-
-` 500 ` : Server Error
-
-
-
-
-
-
-
-
-
-
-
-
+  - `404` : Products not found
+  - `500` : Server error
 
 ---
 
-### 5. ** Images **
+### 5. **Images**
 
-- **URL**: `https://electro.com/image/tv-4.png`
+- **URL**: `https://electro.com/image/TV_12.png`
 - **Method**: `GET`
 - **Description**: Retrieve a product image by its name.
 
 - **Response**:
 
-` 200 ` :
+  - `200` :
 
 ![TV Image](image/TV_12.png)
 
-` 404 ` : Image not found
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - `404` : Image not found
 
 ---
 
@@ -286,7 +192,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **URL**: `https://electro.com/cart`
 - **Method**: `POST`
-- **Description**: Submit a list of products to the cart of user.
+- **Description**: Submit a list of products to the user's cart.
 - **Request Body**:
 
 ```json
@@ -302,25 +208,18 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 - **Response**:
 
-` 200 ` : The New Cart is Saved
-
-` 400 ` : Missing Token
-
-` 401 ` : invalid user
-
-` 500 ` : Server Error
+  - `200` : The new cart is saved
+  - `400` : Missing token
+  - `401` : Invalid user
+  - `500` : Server error
 
 ---
 
----
+## 📚 Library
 
-## 📚 Libbrry 
-
-#### - express
-
-#### - mysql
-
-#### - jsonwebtoken
+- **express**
+- **mysql**
+- **jsonwebtoken**
 
 ---
 
