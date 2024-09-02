@@ -20,112 +20,46 @@ Electro-API is a powerful and lightweight API built with Express.js. It provides
 
 To set up Electro-API on your local machine:
 
-```bash
-git clone https://github.com/MinProGamer/Electro-API-Express.git
-```
+``` git clone https://github.com/MinProGamer/Electro-API-Express.git ```
 
----
+## 📚 Documentation
 
-## 📚 API Documentation
+#### 1 ) New Account
 
-### 1. **Sign-Up**
+```URL :``` https://electro.com/sgin-in
 
-- **URL**: `https://electro.com/sgin-in`
-- **Method**: `POST`
-- **Description**: Create a new account.
-- **Request Body**:
+```Metode :``` POST
 
-```json
-{
-    "user": "Example",
-    "email": "Example@gmail.com",
-    "pass": "MD5"
-}
-```
+```Descreption :``` This end point for create new account in this store
 
-- **Response**: `Code 201 : Created sucsusfly` or `Code 409 : Account Allredy Exsist `
+#### 2 ) Account
 
----
+```URL :``` https://electro.com/login-in
 
-### 2. **Log-In**
+```Descreption :``` This end point for login to your account and get Token
 
-- **URL**: `https://electro.com/log-in`
-- **Method**: `POST`
-- **Description**: Log in to your account and retrieve a token.
-- **Request Body**:
+```Metode :``` POST
 
-```json
-{
-    "email": "Example@gmail.com",
-    "pass": "MD5"
-}
-```
+#### 3 ) Account
 
-- **Response**: 
+```URL :``` https://electro.com/info
 
-```json
-{
-    "token": "exsampleJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
-}
-```
+```Metode :``` GET
 
----
+```Descreption :``` This end point for get information of user like user name and email ...
 
-### 3. **User Info**
+#### 4 ) Account 
 
-- **URL**: `https://electro.com/info`
-- **Method**: `POST`
-- **Description**: Retrieve information about the user, including username and email.
-- **Request Body**:
+```URL :``` https://electro.com/product
 
-```json
-{
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImVtYWlsIjoiWmFrYXJpYUBnbWFpbC5jb20iLCJwYXNzIjoiTUQ1IiwiaWF0IjoxNzI0NzY4MjQ4fQ.CP16kYvC-zVIlFOr9q0vRbsy1HQhdd-64m3I4niHF6s"
-}
-```
+```Metode :``` GET
 
-- **Response**: `200 OK`
+```Descreption :``` This end point for get data of product
 
----
+#### 5 ) Get Image  
 
-### 4. **Product List**
+```URL :``` https://electro.com/image
 
-- **URL**: `https://electro.com/products/RF`
-- **Method**: `GET`
-- **Description**: Retrieve the list of products.
-- **Response**: `200 OK`
+```Metode :``` GET
 
----
-
-### 5. **Product Image**
-
-- **URL**: `https://electro.com/image/tv-4.png`
-- **Method**: `GET`
-- **Description**: Retrieve a product image by its name.
-- **Response**: `200 OK` with src of image
-
----
-
-### 6. **Cart**
-
-- **URL**: `https://electro.com/cart`
-- **Method**: `POST`
-- **Description**: Submit a list of products to the cart of user.
-- **Request Body**:
-
-```json
-{
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImVtYWlsIjoiWmFrYXJpYUBnbWFpbC5jb20iLCJwYXNzIjoiTUQ1IiwiaWF0IjoxNzI0NzY4MjQ4fQ.CP16kYvC-zVIlFOr9q0vRbsy1HQhdd-64m3I4niHF6s",
-    "cart": {
-        "0": 10,
-        "1": 5,
-        "4": 2
-    }
-}
-```
-
-- **Response**: `200 OK` or `201 Created`
-
----
-
-This document covers the primary endpoints of the Electro-API. Each section provides a URL, method, description, request body (if applicable), and expected response for each API operation. If you need more detailed descriptions or additional endpoints, feel free to ask!
+```Descreption :``` This end point for get image by name from product data
