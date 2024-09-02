@@ -262,7 +262,7 @@ git clone https://github.com/MinProGamer/Electro-API-Express.git
 
 ` 200 ` :
 
-![TV Image](images/TV_12.png)
+![TV Image](image/TV_12.png)
 
 ` 404 ` : Image not found
 
