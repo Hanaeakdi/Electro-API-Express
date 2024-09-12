@@ -99,7 +99,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `user`, `email`, `pass`, `role`, `cart`) VALUES
 (21, 'soso', 'soso', 'soso', 'user', NULL),
 (22, 's', 's', 's', 'user', '{\"1\": 20, \"4\": 3, \"23\": 30}'),
-(23, 'Ismail.en.niou1@gmail.com', 'Ismail.en.niou1@gmail.com', 'ismail', 'user', NULL),
+(23, 'Akdihanae1@gmail.com', 'Akdihanae1@gmail.com', 'hanae', 'user', NULL),
 (24, 'Example', 'Example@gmail.com', 'MD5', 'user', NULL);
 
 --
